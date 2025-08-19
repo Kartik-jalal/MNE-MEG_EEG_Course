@@ -2,7 +2,7 @@ ipykernel
 ipywidgets
 
 pip
-pip-tool
+pip-tools
 
 numpy
 mne
