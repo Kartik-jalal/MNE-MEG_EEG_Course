@@ -1,0 +1,8 @@
+ipykernel
+ipywidgets
+
+pip
+pip-tool
+
+numpy
+mne
