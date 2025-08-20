@@ -26,6 +26,8 @@ deactivate
 Now everytime you open any of the jupyter notebooks simply select the *Kernel* '__.venv (Python {version})__' using the '*Select Kernel*' option.
 
 # Latest Update
+### 20th of Aug, 2025
+- Added new python libs to `reqs.txt` file, please run the command `pip-sync reqs.txt` in the python venv to update it.
 ### 19th of Aug, 2025
 - Added the `reqs.txt` file
 - Added the setup section in the `README.md`.

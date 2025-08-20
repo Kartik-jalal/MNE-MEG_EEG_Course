@@ -6,3 +6,5 @@ pip-tools
 
 numpy
 mne
+scikit-learn
+contourpy
