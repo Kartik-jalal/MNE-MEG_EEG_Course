@@ -1,10 +1,5 @@
-ipykernel
-ipywidgets
+jupyter
 
 pip
-pip-tools
 
-numpy
-mne
-scikit-learn
-contourpy
+mne[full-no-qt]
