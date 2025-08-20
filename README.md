@@ -16,7 +16,6 @@ Now, install the required *python libs* by:
 ```bash
 pip install -r reqs.txt
 ```
-> _Note: The `reqs.txt` also installs `pip-tools` lib, so whenever there will be an update in the `reqs.txt` file simply run `pip-sync reqs.txt` to update the venv with the right *python libs*.
 
 Lastly, to deactive the `venv` simply run:
 ```
@@ -25,10 +24,16 @@ deactivate
 
 Now everytime you open any of the jupyter notebooks simply select the *Kernel* '__.venv (Python {version})__' using the '*Select Kernel*' option.
 
+# Chapters
+
+## [Chapter 1 | Introductory Tutorials](https://mne.tools/stable/auto_tutorials/intro/index.html) - [Notebook](chapter_1.ipynb)
+In chapter 1, we have so far looked at the overview of MEG/EEG analysis with MNE-Python.
+
+
+
 # Latest Update
-### 20th of Aug, 2025
-- Added new python libs to `reqs.txt` file, please run the command `pip-sync reqs.txt` in the python venv to update it.
-### 19th of Aug, 2025
-- Added the `reqs.txt` file
-- Added the setup section in the `README.md`.
+### 20th of Aug, 2025 
+- Completely updated the [`req.txt`](reqs.txt), please first `deactivate` the python `venv`, then remove the the `.venv` setup by running `rm -rf .venv`, and then perform the [setup procedure again](#setup).
+
+- Added [chapter_1.ipynb](chapater_1.ipynb) with the overview section of MEG/EEG analysis.
 
